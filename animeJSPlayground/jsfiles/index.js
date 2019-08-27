@@ -1,4 +1,4 @@
-import anime from './node_modules/animejs/lib/anime.es.js';
+import anime from '../node_modules/animejs/lib/anime.es.js';
 
 // just moves to the right
 anime({ // small box moves to the right
