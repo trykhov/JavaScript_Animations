@@ -1,7 +1,17 @@
+$primaryFont: "Futura";
+
 .appear {
     color: #fff;
-    font-family: "Futura";
+    font-family: $primaryFont;
     opacity: 0;
+}
+
+.dropdown {
+    color: #fff; // having color & opacity together helps with the appear effect
+    opacity: 0;
+    text-align: center;
+    font-family: $primaryFont;
+    position: absolute;
 }
 
 .little {

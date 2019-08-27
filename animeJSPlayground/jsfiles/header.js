@@ -19,3 +19,13 @@ tl.add({
     color: "#66CD00",
     translateX: 250
 })
+
+// expected: name fades in (appears & comes down)
+anime({ 
+    targets: ".dropdown",
+    color: "#000000", // having color & opacity together helps with appearing effect
+    opacity: 100,
+    easing: "easeInOutQuad",
+    translateY: 100,
+    duration: 3000
+})
