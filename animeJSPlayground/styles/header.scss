@@ -1,0 +1,9 @@
+.appear {
+    color: #fff;
+    font-family: "Futura";
+    opacity: 0;
+}
+
+.little {
+    @extend .appear;
+}
